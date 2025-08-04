@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(133, 203, 244);
+    font-size: medium;
+
+
+}
+embed {
+    /* text-align: center; */
+    margin: 400px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: #00c3ff;
+    color: #0f05a3;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    float: left;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header nav ul li:first-child {
+    margin-left: 0;
+}
+
+header nav ul li a {
+    color: #823ad5;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: rgb(98, 148, 241);
+}
+.columns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.column {
+    flex: 1;
+}
+
+.column:nth-child(2) {
+    margin-left: 35px; /* Добавляем отступ между колонками */
+}
+
+.column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.column ul li {
+    margin-bottom: 10px;
+}
+
+.column ul li a {
+    text-decoration: none;
+    color: #00484b;
+    transition: color 0.3s ease;
+}
+
+.column ul li a:hover {
+    color: #054589;
+}
+p {
+	text-align: center;
+}
